@@ -11,17 +11,18 @@ npm run dev        # http://localhost:5173
 npm run check      # validate data + tests + build
 ```
 
-## Yayınlama / Deploy (Vercel)
+## Yayınlama / Deploy (GitHub Pages)
 
-1. vercel.com → *Add New Project* → bu repoyu seç. Framework: **Vite** (otomatik algılanır).
-2. Her `main` push'u otomatik yayınlanır — içerik güncellemesi = GitHub'da dosya düzenle, commit.
+Bir kerelik ayar: GitHub'da repo → **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+Sonrasında her `main` push'u `.github/workflows/pages.yml` ile otomatik derlenir ve şurada yayınlanır:
+`https://mehmetustattsc.github.io/FootWare/`
 
 ## Siteye gömme / Embed (WordPress + Elementor)
 
 Elementor'da **HTML** widget'ı ekle:
 
 ```html
-<iframe src="https://SENIN-PROJEN.vercel.app/?lang=de"
+<iframe src="https://mehmetustattsc.github.io/FootWare/?lang=de"
         title="FootWare" loading="lazy"
         style="width:100%;max-width:640px;height:900px;border:0;display:block;margin:0 auto"></iframe>
 ```
@@ -53,4 +54,4 @@ Maksimum 10.500. Dereceler `src/i18n.js` içinde (9000 / 7000 / 5000 / 3000 / 10
 
 - Dış servis yok (Google Fonts dahil) — KVKK/GDPR dostu; sistem yazı tipi kullanılır.
 - Bayraklar emoji yerine 3 harfli kod (Windows bayrak emojisi göstermez).
-- İlk kurulum ortamında npm kayıt defteri erişilemediği için `package-lock.json` yok ve gerçek `vite build` orada çalıştırılmadı; arayüz Bun paketleyici + Playwright ile uçtan uca test edildi. İlk `npm install` lock dosyasını üretir, onu commit'le.
+- Geliştirme ortamında npm kayıt defteri erişilemediği için `package-lock.json` yok ve gerçek `vite build` orada çalıştırılmadı; arayüz Bun paketleyici + Playwright ile uçtan uca test edildi. İlk `npm install` lock dosyasını üretir, onu commit'le.
