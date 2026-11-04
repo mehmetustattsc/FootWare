@@ -1,0 +1,126 @@
+export const LANGS = ["tr", "en", "de"];
+
+export const T = {
+  tr: {
+    tagline: "Kariyer yolunu gör, futbolcuyu bul",
+    start: "Oyunu Başlat",
+    statQuestions: "Soru",
+    statPlayers: "Oyuncu",
+    statLevels: "Zorluk",
+    best: "En iyi",
+    question: "SORU",
+    score: "PUAN",
+    careerPath: "Kariyer Yolu",
+    clubsShown: "kulüp gösterildi",
+    nextClubHidden: "Sıradaki kulüp gizli",
+    revealClub: "Sonraki kulübü göster",
+    getHint: "İpucu al",
+    hintLabel: "İpucu",
+    pickAnswer: "Futbolcuyu seç",
+    correct: "Doğru!",
+    wrong: "Yanlış",
+    fullCareer: "Tam kariyer",
+    next: "Devam",
+    finish: "Sonuçları gör",
+    result: "Sonuç",
+    playAgain: "Tekrar oyna",
+    share: "Paylaş",
+    copied: "Kopyalandı!",
+    shareText: "FootWare ⚽ {score} puan aldım: “{tier}”. Sen yapabilir misin?",
+    difficulty: ["KOLAY", "ORTA", "ZOR", "UZMAN", "EFSANE"],
+    tiers: [
+      { min: 9000, icon: "🏆", title: "El Maestro", sub: "Sen bir futbol ansiklopedisisin" },
+      { min: 7000, icon: "🎯", title: "Baş Skaut", sub: "Avrupa'nın her köşesini tanıyorsun" },
+      { min: 5000, icon: "📋", title: "Analist", sub: "Hiçbir maçı kaçırmıyorsun" },
+      { min: 3000, icon: "🗞️", title: "Spor Muhabiri", sub: "Manşetleri takip ediyorsun" },
+      { min: 1000, icon: "⚽", title: "Sıradan Taraftar", sub: "Maça gidersin ama isimleri unutursun" },
+      { min: 0, icon: "🪑", title: "Koltuk Doldurma", sub: "Yanlış stadyuma girmişsin" },
+    ],
+  },
+  en: {
+    tagline: "See the career path, find the footballer",
+    start: "Start Game",
+    statQuestions: "Questions",
+    statPlayers: "Players",
+    statLevels: "Levels",
+    best: "Best",
+    question: "QUESTION",
+    score: "SCORE",
+    careerPath: "Career Path",
+    clubsShown: "clubs shown",
+    nextClubHidden: "Next club hidden",
+    revealClub: "Reveal next club",
+    getHint: "Get hint",
+    hintLabel: "Hint",
+    pickAnswer: "Select the player",
+    correct: "Correct!",
+    wrong: "Wrong",
+    fullCareer: "Full career",
+    next: "Continue",
+    finish: "See results",
+    result: "Result",
+    playAgain: "Play again",
+    share: "Share",
+    copied: "Copied!",
+    shareText: "FootWare ⚽ I scored {score} points: “{tier}”. Can you beat me?",
+    difficulty: ["EASY", "MEDIUM", "HARD", "EXPERT", "LEGENDARY"],
+    tiers: [
+      { min: 9000, icon: "🏆", title: "El Maestro", sub: "You are a football encyclopedia" },
+      { min: 7000, icon: "🎯", title: "Head Scout", sub: "You know every corner of Europe" },
+      { min: 5000, icon: "📋", title: "Analyst", sub: "You never miss a match" },
+      { min: 3000, icon: "🗞️", title: "Sports Reporter", sub: "You follow the headlines" },
+      { min: 1000, icon: "⚽", title: "Casual Fan", sub: "You go to games but forget the names" },
+      { min: 0, icon: "🪑", title: "Seat Filler", sub: "You walked into the wrong stadium" },
+    ],
+  },
+  de: {
+    tagline: "Sieh den Karriereweg, finde den Spieler",
+    start: "Spiel starten",
+    statQuestions: "Fragen",
+    statPlayers: "Spieler",
+    statLevels: "Stufen",
+    best: "Bestwert",
+    question: "FRAGE",
+    score: "PUNKTE",
+    careerPath: "Karriereweg",
+    clubsShown: "Vereine gezeigt",
+    nextClubHidden: "Nächster Verein verborgen",
+    revealClub: "Nächsten Verein zeigen",
+    getHint: "Hinweis holen",
+    hintLabel: "Hinweis",
+    pickAnswer: "Spieler auswählen",
+    correct: "Richtig!",
+    wrong: "Falsch",
+    fullCareer: "Volle Karriere",
+    next: "Weiter",
+    finish: "Ergebnis ansehen",
+    result: "Ergebnis",
+    playAgain: "Nochmal spielen",
+    share: "Teilen",
+    copied: "Kopiert!",
+    shareText: "FootWare ⚽ Ich habe {score} Punkte: „{tier}“. Schaffst du mehr?",
+    difficulty: ["LEICHT", "MITTEL", "SCHWER", "EXPERTE", "LEGENDÄR"],
+    tiers: [
+      { min: 9000, icon: "🏆", title: "El Maestro", sub: "Du bist eine Fußball-Enzyklopädie" },
+      { min: 7000, icon: "🎯", title: "Chefscout", sub: "Du kennst jede Ecke Europas" },
+      { min: 5000, icon: "📋", title: "Analyst", sub: "Du verpasst kein Spiel" },
+      { min: 3000, icon: "🗞️", title: "Sportreporter", sub: "Du verfolgst die Schlagzeilen" },
+      { min: 1000, icon: "⚽", title: "Gelegenheitsfan", sub: "Du gehst ins Stadion, vergisst aber die Namen" },
+      { min: 0, icon: "🪑", title: "Platzkarte", sub: "Du bist im falschen Stadion gelandet" },
+    ],
+  },
+};
+
+/** ?lang=de → saved choice → browser language → English. */
+export function detectLang() {
+  try {
+    const fromUrl = new URLSearchParams(window.location.search).get("lang");
+    if (LANGS.includes(fromUrl)) return fromUrl;
+    const saved = window.localStorage.getItem("footware:lang");
+    if (LANGS.includes(saved)) return saved;
+  } catch {
+    /* storage may be blocked (e.g. inside a sandboxed iframe) */
+  }
+  const nav = (navigator.language || "en").slice(0, 2).toLowerCase();
+  return LANGS.includes(nav) ? nav : "en";
+}

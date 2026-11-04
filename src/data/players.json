@@ -1,0 +1,602 @@
+[
+  {
+    "id": "zidane", "difficulty": 1, "name": "Zinedine Zidane", "nat": "FRA", "era": "1989–2006",
+    "clubs": ["Cannes", "Bordeaux", "Juventus", "Real Madrid"],
+    "distractors": ["Youri Djorkaeff", "Patrick Vieira", "Christian Karembeu"],
+    "clues": {
+      "en": ["French legend", "Became a superstar at Juventus", "Scored two headers in the 1998 World Cup final"],
+      "tr": ["Fransız efsane", "Juventus'ta süperstar oldu", "1998 Dünya Kupası finalinde kafayla iki gol attı"],
+      "de": ["Französische Legende", "Wurde bei Juventus zum Superstar", "Traf im WM-Finale 1998 zweimal per Kopf"]
+    }
+  },
+  {
+    "id": "ronaldo-r9", "difficulty": 1, "name": "Ronaldo (R9)", "nat": "BRA", "era": "1993–2011",
+    "clubs": ["Cruzeiro", "PSV", "Barcelona", "Inter Milan", "Real Madrid", "AC Milan", "Corinthians"],
+    "distractors": ["Romário", "Rivaldo", "Adriano"],
+    "clues": {
+      "en": ["Nicknamed 'The Phenomenon'", "Started his European career at PSV", "Scored twice in the 2002 World Cup final"],
+      "tr": ["Lakabı 'Fenomen'", "Avrupa kariyerine PSV'de başladı", "2002 Dünya Kupası finalinde iki gol attı"],
+      "de": ["Spitzname 'Das Phänomen'", "Begann seine Europa-Karriere bei PSV", "Traf im WM-Finale 2002 doppelt"]
+    }
+  },
+  {
+    "id": "henry", "difficulty": 1, "name": "Thierry Henry", "nat": "FRA", "era": "1994–2014",
+    "clubs": ["Monaco", "Juventus", "Arsenal", "Barcelona", "New York Red Bulls"],
+    "distractors": ["Nicolas Anelka", "David Trezeguet", "Robert Pires"],
+    "clues": {
+      "en": ["French speed demon", "Arsenal's all-time record scorer", "Won the treble with Barcelona in 2009"],
+      "tr": ["Fransız hız makinesi", "Arsenal'in tüm zamanların en golcü ismi", "2009'da Barcelona ile üçlü kupa kazandı"],
+      "de": ["Französischer Tempospieler", "Arsenals Rekordtorschütze", "Gewann 2009 das Triple mit Barcelona"]
+    }
+  },
+  {
+    "id": "ronaldinho", "difficulty": 1, "name": "Ronaldinho", "nat": "BRA", "era": "1998–2015",
+    "clubs": ["Grêmio", "PSG", "Barcelona", "AC Milan", "Flamengo", "Querétaro"],
+    "distractors": ["Robinho", "Adriano", "Juninho Pernambucano"],
+    "clues": {
+      "en": ["Played with a smile", "FIFA World Player of the Year in 2004 and 2005", "Began his European career in Paris"],
+      "tr": ["Gülümseyerek oynardı", "2004 ve 2005'te FIFA Yılın Oyuncusu", "Avrupa kariyerine Paris'te başladı"],
+      "de": ["Spielte mit einem Lächeln", "FIFA-Weltfußballer 2004 und 2005", "Begann seine Europa-Karriere in Paris"]
+    }
+  },
+  {
+    "id": "drogba", "difficulty": 1, "name": "Didier Drogba", "nat": "CIV", "era": "1998–2018",
+    "clubs": ["Le Mans", "Guingamp", "Marseille", "Chelsea", "Galatasaray", "Chelsea"],
+    "distractors": ["Samuel Eto'o", "Michael Essien", "Yaya Touré"],
+    "clues": {
+      "en": ["Ivory Coast legend", "Two spells at Chelsea", "Scored the equaliser and the winning penalty in the 2012 Champions League final"],
+      "tr": ["Fildişi Sahili efsanesi", "Chelsea'de iki ayrı dönem geçirdi", "2012 Şampiyonlar Ligi finalinde hem beraberlik golünü hem kazandıran penaltıyı attı"],
+      "de": ["Legende der Elfenbeinküste", "Zwei Amtszeiten bei Chelsea", "Erzielte im CL-Finale 2012 den Ausgleich und verwandelte den entscheidenden Elfmeter"]
+    }
+  },
+  {
+    "id": "kaka", "difficulty": 1, "name": "Kaká", "nat": "BRA", "era": "2001–2017",
+    "clubs": ["São Paulo", "AC Milan", "Real Madrid", "AC Milan", "Orlando City"],
+    "distractors": ["Robinho", "Alexandre Pato", "Júlio Baptista"],
+    "clues": {
+      "en": ["Brazilian playmaker", "Ballon d'Or 2007", "Left Milan for Real Madrid in 2009"],
+      "tr": ["Brezilyalı oyun kurucu", "2007 Ballon d'Or sahibi", "2009'da Milan'dan Real Madrid'e gitti"],
+      "de": ["Brasilianischer Spielmacher", "Ballon d'Or 2007", "Wechselte 2009 von Milan zu Real Madrid"]
+    }
+  },
+  {
+    "id": "iniesta", "difficulty": 1, "name": "Andrés Iniesta", "nat": "ESP", "era": "2002–2024",
+    "clubs": ["Barcelona", "Vissel Kobe", "Emirates Club"],
+    "distractors": ["Xavi Hernández", "David Silva", "Cesc Fàbregas"],
+    "clues": {
+      "en": ["Graduate of La Masía", "Scored the winner in the 2010 World Cup final", "Ended his career in Japan and the UAE"],
+      "tr": ["La Masía'nın yetiştirdiği isim", "2010 Dünya Kupası finalinin golünü attı", "Kariyerini Japonya ve BAE'de bitirdi"],
+      "de": ["Absolvent von La Masía", "Schoss das Siegtor im WM-Finale 2010", "Beendete seine Karriere in Japan und den VAE"]
+    }
+  },
+  {
+    "id": "zlatan", "difficulty": 1, "name": "Zlatan Ibrahimović", "nat": "SWE", "era": "1999–2023",
+    "clubs": ["Malmö", "Ajax", "Juventus", "Inter Milan", "Barcelona", "AC Milan", "PSG", "Manchester United", "LA Galaxy", "AC Milan"],
+    "distractors": ["Henrik Larsson", "Freddie Ljungberg", "Marcus Berg"],
+    "clues": {
+      "en": ["Swedish striker", "Never lacked confidence", "Scored an overhead kick from 30 metres against England in 2012"],
+      "tr": ["İsveçli forvet", "Özgüven eksikliği çekmedi", "2012'de İngiltere'ye 30 metreden röveşata golü attı"],
+      "de": ["Schwedischer Stürmer", "Selbstbewusstsein war nie ein Problem", "Erzielte 2012 gegen England einen Fallrückzieher aus 30 Metern"]
+    }
+  },
+  {
+    "id": "cristiano-ronaldo", "difficulty": 1, "name": "Cristiano Ronaldo", "nat": "POR", "era": "2002–",
+    "clubs": ["Sporting CP", "Manchester United", "Real Madrid", "Juventus", "Manchester United", "Al Nassr"],
+    "distractors": ["Nani", "Luís Figo", "Rui Costa"],
+    "clues": {
+      "en": ["Portuguese forward", "Joined Manchester United as a teenager", "Five Ballons d'Or"],
+      "tr": ["Portekizli forvet", "Manchester United'a genç yaşta transfer oldu", "Beş Ballon d'Or"],
+      "de": ["Portugiesischer Stürmer", "Wechselte als Teenager zu Manchester United", "Fünf Ballons d'Or"]
+    }
+  },
+  {
+    "id": "messi", "difficulty": 1, "name": "Lionel Messi", "nat": "ARG", "era": "2004–",
+    "clubs": ["Barcelona", "PSG", "Inter Miami"],
+    "distractors": ["Sergio Agüero", "Carlos Tevez", "Ángel Di María"],
+    "clues": {
+      "en": ["Argentine", "Eight Ballons d'Or", "Won the World Cup in 2022"],
+      "tr": ["Arjantinli", "Sekiz Ballon d'Or", "2022'de Dünya Kupası'nı kazandı"],
+      "de": ["Argentinier", "Acht Ballons d'Or", "Wurde 2022 Weltmeister"]
+    }
+  },
+  {
+    "id": "neuer", "difficulty": 1, "name": "Manuel Neuer", "nat": "GER", "era": "2005–",
+    "clubs": ["Schalke 04", "Bayern Munich"],
+    "distractors": ["Oliver Kahn", "Marc-André ter Stegen", "Roman Weidenfeller"],
+    "clues": {
+      "en": ["German goalkeeper", "Reinvented the sweeper-keeper role", "World Cup winner in 2014"],
+      "tr": ["Alman kaleci", "Libero kaleci rolünü yeniden tanımladı", "2014 Dünya Kupası şampiyonu"],
+      "de": ["Deutscher Torwart", "Erfand die Rolle des Libero-Torwarts neu", "Weltmeister 2014"]
+    }
+  },
+  {
+    "id": "roberto-carlos", "difficulty": 2, "name": "Roberto Carlos", "nat": "BRA", "era": "1991–2015",
+    "clubs": ["União São João", "Palmeiras", "Inter Milan", "Real Madrid", "Fenerbahçe", "Anzhi"],
+    "distractors": ["Cafú", "Dani Alves", "Maicon"],
+    "clues": {
+      "en": ["Brazilian left-back", "Famous curving free kick against France in 1997", "Spent 11 seasons at Real Madrid"],
+      "tr": ["Brezilyalı sol bek", "1997'de Fransa'ya karşı efsane serbest vuruşu attı", "Real Madrid'de 11 sezon geçirdi"],
+      "de": ["Brasilianischer Linksverteidiger", "Berühmter Bogenfreistoß gegen Frankreich 1997", "Verbrachte 11 Saisons bei Real Madrid"]
+    }
+  },
+  {
+    "id": "bergkamp", "difficulty": 2, "name": "Dennis Bergkamp", "nat": "NED", "era": "1986–2006",
+    "clubs": ["Ajax", "Inter Milan", "Arsenal"],
+    "distractors": ["Marc Overmars", "Patrick Kluivert", "Ruud van Nistelrooy"],
+    "clues": {
+      "en": ["Dutch technical genius", "Famously refused to fly", "Legend of Arsenal's Highbury era"],
+      "tr": ["Hollandalı teknik dahi", "Uçağa binmemesiyle meşhurdu", "Arsenal'in Highbury dönemi efsanesi"],
+      "de": ["Niederländisches Ballgenie", "Weigerte sich bekanntlich zu fliegen", "Legende der Highbury-Ära von Arsenal"]
+    }
+  },
+  {
+    "id": "maldini", "difficulty": 2, "name": "Paolo Maldini", "nat": "ITA", "era": "1985–2009",
+    "clubs": ["AC Milan"],
+    "distractors": ["Franco Baresi", "Alessandro Costacurta", "Alessandro Nesta"],
+    "clues": {
+      "en": ["One-club man", "His father also captained the same club", "Won five European Cups"],
+      "tr": ["Tek kulüp adamı", "Babası da aynı kulübün kaptanıydı", "Beş kez Avrupa Kupası kazandı"],
+      "de": ["Ein-Verein-Spieler", "Sein Vater war ebenfalls Kapitän desselben Klubs", "Gewann fünfmal den Europapokal"]
+    }
+  },
+  {
+    "id": "xabi-alonso", "difficulty": 2, "name": "Xabi Alonso", "nat": "ESP", "era": "1999–2017",
+    "clubs": ["Real Sociedad", "Liverpool", "Real Madrid", "Bayern Munich"],
+    "distractors": ["Marcos Senna", "Santi Cazorla", "Mikel Arteta"],
+    "clues": {
+      "en": ["Spanish midfield metronome", "Won the 2005 Champions League with Liverpool", "Later became a manager"],
+      "tr": ["İspanyol orta saha metronomu", "2005'te Liverpool ile Şampiyonlar Ligi'ni kazandı", "Sonradan teknik direktör oldu"],
+      "de": ["Spanischer Taktgeber im Mittelfeld", "Gewann 2005 die Champions League mit Liverpool", "Wurde später Trainer"]
+    }
+  },
+  {
+    "id": "modric", "difficulty": 2, "name": "Luka Modrić", "nat": "CRO", "era": "2003–",
+    "clubs": ["Dinamo Zagreb", "Tottenham", "Real Madrid", "AC Milan"],
+    "distractors": ["Ivan Rakitić", "Mateo Kovačić", "Marcelo Brozović"],
+    "clues": {
+      "en": ["Croatia's captain", "Ballon d'Or 2018", "Joined Milan after 13 years in Madrid"],
+      "tr": ["Hırvatistan kaptanı", "2018 Ballon d'Or sahibi", "Madrid'de 13 yıl geçirdikten sonra Milan'a gitti"],
+      "de": ["Kroatiens Kapitän", "Ballon d'Or 2018", "Wechselte nach 13 Jahren in Madrid zu Milan"]
+    }
+  },
+  {
+    "id": "buffon", "difficulty": 2, "name": "Gianluigi Buffon", "nat": "ITA", "era": "1995–2023",
+    "clubs": ["Parma", "Juventus", "PSG", "Juventus", "Parma"],
+    "distractors": ["Dino Zoff", "Angelo Peruzzi", "Gianluca Pagliuca"],
+    "clues": {
+      "en": ["Italian goalkeeper legend", "Started and ended his career at Parma", "Won the World Cup in 2006"],
+      "tr": ["İtalyan kaleci efsanesi", "Kariyerine Parma'da başladı, Parma'da bitirdi", "2006'da Dünya Kupası'nı kazandı"],
+      "de": ["Italienische Torwart-Legende", "Begann und beendete seine Karriere bei Parma", "Wurde 2006 Weltmeister"]
+    }
+  },
+  {
+    "id": "totti", "difficulty": 2, "name": "Francesco Totti", "nat": "ITA", "era": "1992–2017",
+    "clubs": ["Roma"],
+    "distractors": ["Alessandro Del Piero", "Vincenzo Montella", "Daniele De Rossi"],
+    "clues": {
+      "en": ["One-club man", "Captain of the Giallorossi", "Won the World Cup in 2006"],
+      "tr": ["Tek kulüp adamı", "Giallorossi'nin kaptanı", "2006'da Dünya Kupası'nı kazandı"],
+      "de": ["Ein-Verein-Spieler", "Kapitän der Giallorossi", "Wurde 2006 Weltmeister"]
+    }
+  },
+  {
+    "id": "gerrard", "difficulty": 2, "name": "Steven Gerrard", "nat": "ENG", "era": "1998–2016",
+    "clubs": ["Liverpool", "LA Galaxy"],
+    "distractors": ["Frank Lampard", "Paul Scholes", "Michael Carrick"],
+    "clues": {
+      "en": ["Captain of the Istanbul miracle", "Famous slip against Chelsea in 2014", "Ended his career in MLS"],
+      "tr": ["İstanbul mucizesinin kaptanı", "2014'te Chelsea karşısında meşhur kayma anı", "Kariyerini MLS'te bitirdi"],
+      "de": ["Kapitän des Wunders von Istanbul", "Berüchtigter Ausrutscher gegen Chelsea 2014", "Beendete seine Karriere in der MLS"]
+    }
+  },
+  {
+    "id": "lewandowski", "difficulty": 2, "name": "Robert Lewandowski", "nat": "POL", "era": "2005–",
+    "clubs": ["Znicz Pruszków", "Lech Poznań", "Borussia Dortmund", "Bayern Munich", "Barcelona"],
+    "distractors": ["Miroslav Klose", "Pierre-Emerick Aubameyang", "Mario Gómez"],
+    "clues": {
+      "en": ["Polish striker", "Moved from Dortmund to Bayern on a free transfer", "Scored five goals in nine minutes in 2015"],
+      "tr": ["Polonyalı golcü", "Dortmund'dan Bayern'e bedelsiz geçti", "2015'te dokuz dakikada beş gol attı"],
+      "de": ["Polnischer Stürmer", "Wechselte ablösefrei von Dortmund zu Bayern", "Erzielte 2015 fünf Tore in neun Minuten"]
+    }
+  },
+  {
+    "id": "ozil", "difficulty": 2, "name": "Mesut Özil", "nat": "GER", "era": "2006–2023",
+    "clubs": ["Schalke 04", "Werder Bremen", "Real Madrid", "Arsenal", "Fenerbahçe", "İstanbul Başakşehir"],
+    "distractors": ["Mario Götze", "Sami Khedira", "İlkay Gündoğan"],
+    "clues": {
+      "en": ["German playmaker of Turkish descent", "Assist machine at Real Madrid", "Ended his career in Istanbul"],
+      "tr": ["Türk kökenli Alman oyun kurucu", "Real Madrid'de asist makinesi", "Kariyerini İstanbul'da bitirdi"],
+      "de": ["Deutscher Spielmacher mit türkischen Wurzeln", "Vorlagengeber bei Real Madrid", "Beendete seine Karriere in Istanbul"]
+    }
+  },
+  {
+    "id": "kroos", "difficulty": 2, "name": "Toni Kroos", "nat": "GER", "era": "2007–2024",
+    "clubs": ["Bayern Munich", "Bayer Leverkusen", "Real Madrid"],
+    "distractors": ["Sami Khedira", "Bastian Schweinsteiger", "İlkay Gündoğan"],
+    "clues": {
+      "en": ["German midfield metronome", "Won the World Cup in 2014", "Retired after Euro 2024"],
+      "tr": ["Alman orta saha metronomu", "2014'te Dünya Kupası'nı kazandı", "Euro 2024 sonrası futbolu bıraktı"],
+      "de": ["Deutscher Taktgeber im Mittelfeld", "Wurde 2014 Weltmeister", "Beendete seine Karriere nach der EM 2024"]
+    }
+  },
+  {
+    "id": "schweinsteiger", "difficulty": 2, "name": "Bastian Schweinsteiger", "nat": "GER", "era": "2002–2019",
+    "clubs": ["Bayern Munich", "Manchester United", "Chicago Fire"],
+    "distractors": ["Toni Kroos", "Sami Khedira", "Michael Ballack"],
+    "clues": {
+      "en": ["Bayern Munich icon", "Played the 2014 World Cup final with a cut under his eye", "Ended his career in MLS"],
+      "tr": ["Bayern Münih ikonu", "2014 Dünya Kupası finalini gözünün altı yarık oynadı", "Kariyerini MLS'te bitirdi"],
+      "de": ["Bayern-München-Ikone", "Spielte das WM-Finale 2014 mit blutender Platzwunde unterm Auge", "Beendete seine Karriere in der MLS"]
+    }
+  },
+  {
+    "id": "klose", "difficulty": 2, "name": "Miroslav Klose", "nat": "GER", "era": "1998–2016",
+    "clubs": ["Kaiserslautern", "Werder Bremen", "Bayern Munich", "Lazio"],
+    "distractors": ["Lukas Podolski", "Mario Gómez", "Oliver Neuville"],
+    "clues": {
+      "en": ["Born in Poland", "Record scorer in World Cup history with 16 goals", "Famous for his somersault celebration"],
+      "tr": ["Polonya doğumlu", "16 golle Dünya Kupası tarihinin en golcü ismi", "Takla atarak gol sevinci yapmasıyla ünlü"],
+      "de": ["Geboren in Polen", "Rekordtorschütze der WM-Geschichte mit 16 Toren", "Berühmt für seinen Salto-Torjubel"]
+    }
+  },
+  {
+    "id": "kahn", "difficulty": 2, "name": "Oliver Kahn", "nat": "GER", "era": "1987–2008",
+    "clubs": ["Karlsruher SC", "Bayern Munich"],
+    "distractors": ["Jens Lehmann", "Manuel Neuer", "Andreas Köpke"],
+    "clues": {
+      "en": ["Nicknamed 'Der Titan'", "Golden Ball winner at the 2002 World Cup", "Saved penalties in the 2001 Champions League final shootout"],
+      "tr": ["Lakabı 'Der Titan'", "2002 Dünya Kupası'nda Altın Top sahibi", "2001 Şampiyonlar Ligi finalinde penaltı atışlarında kurtarışlar yaptı"],
+      "de": ["Spitzname 'Der Titan'", "Gewann den Goldenen Ball der WM 2002", "Hielt im Elfmeterschießen des CL-Finals 2001"]
+    }
+  },
+  {
+    "id": "sukur", "difficulty": 2, "name": "Hakan Şükür", "nat": "TUR", "era": "1987–2008",
+    "clubs": ["Sakaryaspor", "Bursaspor", "Galatasaray", "Torino", "Galatasaray", "Inter Milan", "Parma", "Blackburn Rovers", "Galatasaray"],
+    "distractors": ["Tuncay Şanlı", "Arda Turan", "Emre Belözoğlu"],
+    "clues": {
+      "en": ["Turkish striker", "Scored the fastest goal in World Cup history, after 10.8 seconds", "Nicknamed 'Boğa' (the Bull)"],
+      "tr": ["Türk golcü", "10,8 saniyede Dünya Kupası tarihinin en hızlı golünü attı", "Lakabı 'Boğa'"],
+      "de": ["Türkischer Stürmer", "Erzielte nach 10,8 Sekunden das schnellste Tor der WM-Geschichte", "Spitzname 'Boğa' (der Bulle)"]
+    }
+  },
+  {
+    "id": "arda-turan", "difficulty": 2, "name": "Arda Turan", "nat": "TUR", "era": "2004–2022",
+    "clubs": ["Galatasaray", "Atlético Madrid", "Barcelona", "İstanbul Başakşehir", "Galatasaray"],
+    "distractors": ["Hamit Altıntop", "Nuri Şahin", "Selçuk İnan"],
+    "clues": {
+      "en": ["Turkish playmaker", "Reached the Euro 2008 semi-final with Turkey", "Won La Liga with Atlético Madrid"],
+      "tr": ["Türk oyun kurucu", "Euro 2008'de Türkiye ile yarı finale çıktı", "Atlético Madrid ile La Liga şampiyonu oldu"],
+      "de": ["Türkischer Spielmacher", "Erreichte mit der Türkei das EM-Halbfinale 2008", "Gewann mit Atlético Madrid die Meisterschaft"]
+    }
+  },
+  {
+    "id": "raul", "difficulty": 2, "name": "Raúl", "nat": "ESP", "era": "1994–2015",
+    "clubs": ["Real Madrid", "Schalke 04", "Al Sadd", "New York Cosmos"],
+    "distractors": ["Fernando Morientes", "Fernando Hierro", "Fernando Torres"],
+    "clues": {
+      "en": ["Spanish icon in the number 7 shirt", "Was the Champions League's top scorer for years", "Left Madrid for Germany in 2010"],
+      "tr": ["7 numaralı formanın İspanyol ikonu", "Yıllarca Şampiyonlar Ligi'nin en golcü ismiydi", "2010'da Madrid'den Almanya'ya gitti"],
+      "de": ["Spanische Ikone im Trikot mit der Nummer 7", "War jahrelang bester Torschütze der Champions League", "Verließ Madrid 2010 Richtung Deutschland"]
+    }
+  },
+  {
+    "id": "seedorf", "difficulty": 3, "name": "Clarence Seedorf", "nat": "NED", "era": "1992–2014",
+    "clubs": ["Ajax", "Sampdoria", "Real Madrid", "Inter Milan", "AC Milan", "Botafogo"],
+    "distractors": ["Edgar Davids", "Patrick Kluivert", "Jaap Stam"],
+    "clues": {
+      "en": ["Dutch midfielder", "Won four Champions League titles", "The only player to win it with three different clubs"],
+      "tr": ["Hollandalı orta saha", "Dört Şampiyonlar Ligi kupası kazandı", "Üç farklı kulüple kazanan tek oyuncu"],
+      "de": ["Niederländischer Mittelfeldspieler", "Gewann viermal die Champions League", "Einziger Spieler, der sie mit drei verschiedenen Klubs gewann"]
+    }
+  },
+  {
+    "id": "ribery", "difficulty": 3, "name": "Franck Ribéry", "nat": "FRA", "era": "2000–2022",
+    "clubs": ["Boulogne", "Alès", "Brest", "Metz", "Galatasaray", "Marseille", "Bayern Munich", "Fiorentina", "Salernitana"],
+    "distractors": ["Arjen Robben", "Florent Malouda", "Hatem Ben Arfa"],
+    "clues": {
+      "en": ["French winger", "Famous wing duo with Robben", "Part of Bayern's 2013 treble"],
+      "tr": ["Fransız kanat oyuncusu", "Robben ile ünlü kanat ikilisi", "Bayern'in 2013 üçlü kupasının parçası"],
+      "de": ["Französischer Flügelspieler", "Berühmtes Flügelduo mit Robben", "Teil des Bayern-Triples 2013"]
+    }
+  },
+  {
+    "id": "cannavaro", "difficulty": 3, "name": "Fabio Cannavaro", "nat": "ITA", "era": "1992–2011",
+    "clubs": ["Napoli", "Parma", "Inter Milan", "Juventus", "Real Madrid", "Juventus", "Al-Ahli"],
+    "distractors": ["Alessandro Nesta", "Marco Materazzi", "Christian Panucci"],
+    "clues": {
+      "en": ["Italian centre-back", "Captained Italy to the 2006 World Cup", "Won the Ballon d'Or as a defender in 2006"],
+      "tr": ["İtalyan stoper", "İtalya'yı kaptan olarak 2006 Dünya Kupası'na taşıdı", "2006'da savunmacı olarak Ballon d'Or kazandı"],
+      "de": ["Italienischer Innenverteidiger", "Führte Italien 2006 als Kapitän zum WM-Titel", "Gewann 2006 als Verteidiger den Ballon d'Or"]
+    }
+  },
+  {
+    "id": "robben", "difficulty": 3, "name": "Arjen Robben", "nat": "NED", "era": "2000–2021",
+    "clubs": ["Groningen", "PSV", "Chelsea", "Real Madrid", "Bayern Munich", "Groningen"],
+    "distractors": ["Marc Overmars", "Wesley Sneijder", "Rafael van der Vaart"],
+    "clues": {
+      "en": ["Dutch winger", "Cut inside and curled it with his left foot", "Scored the winner in the 2013 Champions League final"],
+      "tr": ["Hollandalı kanat oyuncusu", "İçeri kesip sol ayağıyla falsolu vururdu", "2013 Şampiyonlar Ligi finalinin galibiyet golünü attı"],
+      "de": ["Niederländischer Flügelspieler", "Zog nach innen und schoss mit links", "Erzielte das Siegtor im CL-Finale 2013"]
+    }
+  },
+  {
+    "id": "vieira", "difficulty": 3, "name": "Patrick Vieira", "nat": "FRA", "era": "1993–2011",
+    "clubs": ["Cannes", "AC Milan", "Arsenal", "Juventus", "Inter Milan", "Manchester City"],
+    "distractors": ["Emmanuel Petit", "Claude Makélélé", "Didier Deschamps"],
+    "clues": {
+      "en": ["French midfield enforcer", "Captain of Arsenal's Invincibles", "World Cup winner in 1998"],
+      "tr": ["Fransız orta saha lideri", "Arsenal'in Yenilmezler takımının kaptanı", "1998 Dünya Kupası şampiyonu"],
+      "de": ["Französischer Mittelfeld-Antreiber", "Kapitän der Arsenal-Invincibles", "Weltmeister 1998"]
+    }
+  },
+  {
+    "id": "xavi", "difficulty": 3, "name": "Xavi Hernández", "nat": "ESP", "era": "1998–2019",
+    "clubs": ["Barcelona", "Al Sadd"],
+    "distractors": ["Andrés Iniesta", "Sergio Busquets", "Cesc Fàbregas"],
+    "clues": {
+      "en": ["Master of tiki-taka", "Spent 17 years in Barcelona's first team", "Later coached Barcelona"],
+      "tr": ["Tiki-taka ustası", "Barcelona'nın ilk takımında 17 yıl geçirdi", "Sonradan Barcelona'yı çalıştırdı"],
+      "de": ["Meister des Tiki-Taka", "Verbrachte 17 Jahre in Barcelonas erster Mannschaft", "Trainierte später Barcelona"]
+    }
+  },
+  {
+    "id": "reus", "difficulty": 3, "name": "Marco Reus", "nat": "GER", "era": "2006–",
+    "clubs": ["Rot Weiss Ahlen", "Borussia Mönchengladbach", "Borussia Dortmund", "LA Galaxy"],
+    "distractors": ["Mario Götze", "Julian Draxler", "André Schürrle"],
+    "clues": {
+      "en": ["German attacking midfielder", "Missed the 2014 World Cup through injury", "Moved to MLS in 2024"],
+      "tr": ["Alman hücum orta sahası", "2014 Dünya Kupası'nı sakatlığı yüzünden kaçırdı", "2024'te MLS'e gitti"],
+      "de": ["Deutscher Offensivspieler", "Verpasste die WM 2014 verletzt", "Wechselte 2024 in die MLS"]
+    }
+  },
+  {
+    "id": "matthaus", "difficulty": 3, "name": "Lothar Matthäus", "nat": "GER", "era": "1979–2000",
+    "clubs": ["Borussia Mönchengladbach", "Bayern Munich", "Inter Milan", "Bayern Munich", "MetroStars"],
+    "distractors": ["Andreas Brehme", "Rudi Völler", "Jürgen Klinsmann"],
+    "clues": {
+      "en": ["Captained West Germany to the 1990 World Cup", "Ballon d'Or 1990", "Held the World Cup appearances record for years"],
+      "tr": ["Batı Almanya'yı 1990 Dünya Kupası'na kaptan olarak taşıdı", "1990 Ballon d'Or sahibi", "Yıllarca Dünya Kupası maç sayısı rekorunu elinde tuttu"],
+      "de": ["Führte Westdeutschland 1990 als Kapitän zum WM-Titel", "Ballon d'Or 1990", "Hielt jahrelang den WM-Einsatzrekord"]
+    }
+  },
+  {
+    "id": "ballack", "difficulty": 3, "name": "Michael Ballack", "nat": "GER", "era": "1995–2012",
+    "clubs": ["Chemnitzer FC", "Kaiserslautern", "Bayer Leverkusen", "Bayern Munich", "Chelsea", "Bayer Leverkusen"],
+    "distractors": ["Torsten Frings", "Bastian Schweinsteiger", "Dietmar Hamann"],
+    "clues": {
+      "en": ["Captain of Germany", "Won the Premier League with Chelsea", "Part of Leverkusen's near-treble in 2002"],
+      "tr": ["Almanya kaptanı", "Chelsea ile Premier Lig'i kazandı", "2002'de Leverkusen'in 'neredeyse üçlü'sünün parçasıydı"],
+      "de": ["Kapitän der Nationalmannschaft", "Gewann mit Chelsea die Premier League", "Teil des 'Vizekusen'-Jahres 2002 bei Leverkusen"]
+    }
+  },
+  {
+    "id": "pirlo", "difficulty": 3, "name": "Andrea Pirlo", "nat": "ITA", "era": "1995–2017",
+    "clubs": ["Brescia", "Inter Milan", "AC Milan", "Juventus", "New York City FC"],
+    "distractors": ["Gennaro Gattuso", "Daniele De Rossi", "Marco Verratti"],
+    "clues": {
+      "en": ["Deep-lying Italian playmaker", "Famous chipped penalty at Euro 2012", "Joined Juventus on a free transfer in 2011"],
+      "tr": ["Derinlikten oyun kuran İtalyan", "Euro 2012'de meşhur panenka penaltısını attı", "2011'de Juventus'a bedelsiz geçti"],
+      "de": ["Italienischer Tiefenspielmacher", "Berühmter Panenka-Elfmeter bei der EM 2012", "Wechselte 2011 ablösefrei zu Juventus"]
+    }
+  },
+  {
+    "id": "sneijder", "difficulty": 3, "name": "Wesley Sneijder", "nat": "NED", "era": "2002–2019",
+    "clubs": ["Ajax", "Real Madrid", "Inter Milan", "Galatasaray", "Nice", "Al-Gharafa"],
+    "distractors": ["Rafael van der Vaart", "Arjen Robben", "Nigel de Jong"],
+    "clues": {
+      "en": ["Dutch playmaker", "Won the treble with Inter in 2010", "Finished runner-up at the 2010 World Cup"],
+      "tr": ["Hollandalı oyun kurucu", "2010'da Inter ile üçlü kupa kazandı", "2010 Dünya Kupası'nda ikinci oldu"],
+      "de": ["Niederländischer Spielmacher", "Gewann 2010 das Triple mit Inter", "WM-Zweiter 2010"]
+    }
+  },
+  {
+    "id": "shevchenko", "difficulty": 3, "name": "Andriy Shevchenko", "nat": "UKR", "era": "1994–2012",
+    "clubs": ["Dynamo Kyiv", "AC Milan", "Chelsea", "Dynamo Kyiv"],
+    "distractors": ["Filippo Inzaghi", "Hernán Crespo", "Andriy Voronin"],
+    "clues": {
+      "en": ["Ukrainian striker", "Ballon d'Or 2004", "Scored the winning penalty in the 2003 Champions League final"],
+      "tr": ["Ukraynalı golcü", "2004 Ballon d'Or sahibi", "2003 Şampiyonlar Ligi finalinde kazandıran penaltıyı attı"],
+      "de": ["Ukrainischer Stürmer", "Ballon d'Or 2004", "Verwandelte den entscheidenden Elfmeter im CL-Finale 2003"]
+    }
+  },
+  {
+    "id": "casillas", "difficulty": 3, "name": "Iker Casillas", "nat": "ESP", "era": "1999–2020",
+    "clubs": ["Real Madrid", "Porto"],
+    "distractors": ["Víctor Valdés", "Pepe Reina", "Edwin van der Sar"],
+    "clues": {
+      "en": ["Spanish goalkeeper", "Captain of the 2010 World Cup winners", "Nicknamed 'San Iker'"],
+      "tr": ["İspanyol kaleci", "2010 Dünya Kupası şampiyonu takımın kaptanı", "Lakabı 'San Iker'"],
+      "de": ["Spanischer Torwart", "Kapitän der Weltmeister von 2010", "Spitzname 'San Iker'"]
+    }
+  },
+  {
+    "id": "figo", "difficulty": 3, "name": "Luís Figo", "nat": "POR", "era": "1989–2009",
+    "clubs": ["Sporting CP", "Barcelona", "Real Madrid", "Inter Milan"],
+    "distractors": ["Rui Costa", "João Pinto", "Deco"],
+    "clues": {
+      "en": ["Portuguese winger", "Ballon d'Or 2000", "Made football's most controversial transfer: Barcelona to Real Madrid"],
+      "tr": ["Portekizli kanat oyuncusu", "2000 Ballon d'Or sahibi", "Futbolun en tartışmalı transferini yaptı: Barcelona'dan Real Madrid'e"],
+      "de": ["Portugiesischer Flügelspieler", "Ballon d'Or 2000", "Machte den umstrittensten Transfer: von Barcelona zu Real Madrid"]
+    }
+  },
+  {
+    "id": "beckenbauer", "difficulty": 4, "name": "Franz Beckenbauer", "nat": "GER", "era": "1964–1983",
+    "clubs": ["Bayern Munich", "New York Cosmos", "Hamburg", "New York Cosmos"],
+    "distractors": ["Sepp Maier", "Berti Vogts", "Karl-Heinz Rummenigge"],
+    "clues": {
+      "en": ["Nicknamed 'Der Kaiser'", "Redefined the libero role", "Won the World Cup as both player and coach"],
+      "tr": ["Lakabı 'Der Kaiser'", "Libero rolünü yeniden tanımladı", "Dünya Kupası'nı hem oyuncu hem teknik direktör olarak kazandı"],
+      "de": ["Spitzname 'Der Kaiser'", "Prägte die Libero-Rolle neu", "Wurde als Spieler und als Trainer Weltmeister"]
+    }
+  },
+  {
+    "id": "cruyff", "difficulty": 4, "name": "Johan Cruyff", "nat": "NED", "era": "1964–1984",
+    "clubs": ["Ajax", "Barcelona", "Los Angeles Aztecs", "Washington Diplomats", "Levante", "Ajax", "Feyenoord"],
+    "distractors": ["Johan Neeskens", "Ruud Krol", "Rob Rensenbrink"],
+    "clues": {
+      "en": ["Wore the number 14 shirt", "Symbol of Total Football", "A famous turn carries his name"],
+      "tr": ["14 numaralı formayı giyerdi", "Total Futbol'un simgesi", "Meşhur bir dönüş hareketi adını taşır"],
+      "de": ["Trug die Rückennummer 14", "Symbol des Totalen Fußballs", "Eine berühmte Drehung trägt seinen Namen"]
+    }
+  },
+  {
+    "id": "van-basten", "difficulty": 4, "name": "Marco van Basten", "nat": "NED", "era": "1982–1995",
+    "clubs": ["Ajax", "AC Milan"],
+    "distractors": ["Ruud Gullit", "Frank Rijkaard", "Dennis Bergkamp"],
+    "clues": {
+      "en": ["Only two professional clubs", "Famous volley in the Euro 1988 final", "Injury ended his career at 30"],
+      "tr": ["Sadece iki profesyonel kulüp", "Euro 1988 finalinde meşhur voleyi attı", "Sakatlık kariyerini 30 yaşında bitirdi"],
+      "de": ["Nur zwei Profivereine", "Berühmter Volley im EM-Finale 1988", "Verletzung beendete seine Karriere mit 30"]
+    }
+  },
+  {
+    "id": "gerd-mueller", "difficulty": 4, "name": "Gerd Müller", "nat": "GER", "era": "1963–1981",
+    "clubs": ["TSV Nördlingen", "Bayern Munich", "Fort Lauderdale Strikers"],
+    "distractors": ["Uwe Seeler", "Karl-Heinz Rummenigge", "Jupp Heynckes"],
+    "clues": {
+      "en": ["Nicknamed 'Der Bomber'", "Scored the winner in the 1974 World Cup final", "365 Bundesliga goals"],
+      "tr": ["Lakabı 'Der Bomber'", "1974 Dünya Kupası finalinin galibiyet golünü attı", "Bundesliga'da 365 gol"],
+      "de": ["Spitzname 'Der Bomber'", "Erzielte das Siegtor im WM-Finale 1974", "365 Bundesliga-Tore"]
+    }
+  },
+  {
+    "id": "baggio", "difficulty": 4, "name": "Roberto Baggio", "nat": "ITA", "era": "1982–2004",
+    "clubs": ["Vicenza", "Fiorentina", "Juventus", "AC Milan", "Bologna", "Inter Milan", "Brescia"],
+    "distractors": ["Alessandro Del Piero", "Gianluca Vialli", "Gabriel Batistuta"],
+    "clues": {
+      "en": ["Nicknamed 'The Divine Ponytail'", "Ballon d'Or 1993", "Missed the decisive penalty in the 1994 World Cup final"],
+      "tr": ["Lakabı 'İlahi Atkuyruğu'", "1993 Ballon d'Or sahibi", "1994 Dünya Kupası finalinde belirleyici penaltıyı kaçırdı"],
+      "de": ["Spitzname 'Der göttliche Zopf'", "Ballon d'Or 1993", "Verschoss den entscheidenden Elfmeter im WM-Finale 1994"]
+    }
+  },
+  {
+    "id": "zico", "difficulty": 4, "name": "Zico", "nat": "BRA", "era": "1971–1994",
+    "clubs": ["Flamengo", "Udinese", "Flamengo", "Kashima Antlers"],
+    "distractors": ["Sócrates", "Falcão", "Careca"],
+    "clues": {
+      "en": ["Nicknamed 'The White Pelé'", "Won the Copa Libertadores with Flamengo in 1981", "Helped build Japan's J-League"],
+      "tr": ["Lakabı 'Beyaz Pelé'", "1981'de Flamengo ile Libertadores Kupası'nı kazandı", "Japonya J-League'inin kurulmasına katkı verdi"],
+      "de": ["Spitzname 'Der weiße Pelé'", "Gewann 1981 mit Flamengo die Copa Libertadores", "Half beim Aufbau der japanischen J-League"]
+    }
+  },
+  {
+    "id": "gullit", "difficulty": 4, "name": "Ruud Gullit", "nat": "NED", "era": "1979–1998",
+    "clubs": ["Haarlem", "Feyenoord", "PSV", "AC Milan", "Sampdoria", "AC Milan", "Chelsea"],
+    "distractors": ["Frank Rijkaard", "Marco van Basten", "Ronald Koeman"],
+    "clues": {
+      "en": ["Dutch star with dreadlocks", "Ballon d'Or 1987", "Became player-manager at Chelsea"],
+      "tr": ["Dreadlock saçlı Hollandalı yıldız", "1987 Ballon d'Or sahibi", "Chelsea'de oyuncu-teknik direktör oldu"],
+      "de": ["Niederländischer Star mit Dreadlocks", "Ballon d'Or 1987", "Wurde Spielertrainer bei Chelsea"]
+    }
+  },
+  {
+    "id": "laudrup", "difficulty": 4, "name": "Michael Laudrup", "nat": "DEN", "era": "1981–1998",
+    "clubs": ["Brøndby", "Lazio", "Juventus", "Barcelona", "Real Madrid", "Vissel Kobe", "Ajax"],
+    "distractors": ["Allan Simonsen", "Peter Schmeichel", "Preben Elkjær"],
+    "clues": {
+      "en": ["Danish playmaker", "Won La Liga with both Barcelona and Real Madrid", "Left Barcelona for Real Madrid in 1994"],
+      "tr": ["Danimarkalı oyun kurucu", "La Liga'yı hem Barcelona hem Real Madrid ile kazandı", "1994'te Barcelona'dan Real Madrid'e geçti"],
+      "de": ["Dänischer Spielmacher", "Gewann die Meisterschaft mit Barcelona und Real Madrid", "Wechselte 1994 von Barcelona zu Real Madrid"]
+    }
+  },
+  {
+    "id": "batistuta", "difficulty": 4, "name": "Gabriel Batistuta", "nat": "ARG", "era": "1988–2005",
+    "clubs": ["Newell's Old Boys", "River Plate", "Boca Juniors", "Fiorentina", "Roma", "Inter Milan", "Al-Arabi"],
+    "distractors": ["Hernán Crespo", "Claudio Caniggia", "Gonzalo Higuaín"],
+    "clues": {
+      "en": ["Nicknamed 'Batigol'", "Won Serie A with Roma in 2001", "Has a statue in Florence"],
+      "tr": ["Lakabı 'Batigol'", "2001'de Roma ile Serie A şampiyonu oldu", "Floransa'da heykeli var"],
+      "de": ["Spitzname 'Batigol'", "Wurde 2001 mit der Roma italienischer Meister", "Hat eine Statue in Florenz"]
+    }
+  },
+  {
+    "id": "eusebio", "difficulty": 5, "name": "Eusébio", "nat": "POR", "era": "1957–1977",
+    "clubs": ["Sporting de Lourenço Marques", "Benfica", "Boston Minutemen", "Beira-Mar"],
+    "distractors": ["Mário Coluna", "José Torres", "António Simões"],
+    "clues": {
+      "en": ["Nicknamed 'The Black Panther'", "Top scorer of the 1966 World Cup", "Scored twice in Benfica's 1962 European Cup final win"],
+      "tr": ["Lakabı 'Kara Panter'", "1966 Dünya Kupası'nın gol kralı", "Benfica'nın 1962 Avrupa Kupası finalinde iki gol attı"],
+      "de": ["Spitzname 'Der schwarze Panther'", "Torschützenkönig der WM 1966", "Traf zweimal beim Benfica-Sieg im Europapokalfinale 1962"]
+    }
+  },
+  {
+    "id": "best", "difficulty": 5, "name": "George Best", "nat": "NIR", "era": "1963–1983",
+    "clubs": ["Manchester United", "Fulham", "Los Angeles Aztecs", "Fort Lauderdale Strikers", "Hibernian", "San Jose Earthquakes"],
+    "distractors": ["Denis Law", "Bobby Charlton", "Pat Jennings"],
+    "clues": {
+      "en": ["Northern Irish genius", "Ballon d'Or 1968", "Called 'the fifth Beatle'"],
+      "tr": ["Kuzey İrlandalı dahi", "1968 Ballon d'Or sahibi", "'Beşinci Beatle' olarak anıldı"],
+      "de": ["Nordirisches Genie", "Ballon d'Or 1968", "Wurde 'der fünfte Beatle' genannt"]
+    }
+  },
+  {
+    "id": "platini", "difficulty": 5, "name": "Michel Platini", "nat": "FRA", "era": "1972–1987",
+    "clubs": ["Nancy", "Saint-Étienne", "Juventus"],
+    "distractors": ["Alain Giresse", "Jean Tigana", "Luis Fernández"],
+    "clues": {
+      "en": ["Three Ballons d'Or in a row", "Scored nine goals at Euro 1984", "Later became UEFA president"],
+      "tr": ["Üst üste üç Ballon d'Or", "Euro 1984'te dokuz gol attı", "Sonradan UEFA başkanı oldu"],
+      "de": ["Drei Ballons d'Or in Folge", "Erzielte neun Tore bei der EM 1984", "Wurde später UEFA-Präsident"]
+    }
+  },
+  {
+    "id": "yashin", "difficulty": 5, "name": "Lev Yashin", "nat": "URS", "era": "1950–1970",
+    "clubs": ["Dynamo Moscow"],
+    "distractors": ["Gordon Banks", "Dino Zoff", "Sepp Maier"],
+    "clues": {
+      "en": ["Nicknamed 'The Black Spider'", "The only goalkeeper to win the Ballon d'Or", "Played for a single club"],
+      "tr": ["Lakabı 'Kara Örümcek'", "Ballon d'Or kazanan tek kaleci", "Tek bir kulüpte oynadı"],
+      "de": ["Spitzname 'Die schwarze Spinne'", "Einziger Torwart mit einem Ballon d'Or", "Spielte nur für einen Klub"]
+    }
+  },
+  {
+    "id": "maradona", "difficulty": 5, "name": "Diego Maradona", "nat": "ARG", "era": "1976–1997",
+    "clubs": ["Argentinos Juniors", "Boca Juniors", "Barcelona", "Napoli", "Sevilla", "Newell's Old Boys", "Boca Juniors"],
+    "distractors": ["Jorge Valdano", "Claudio Caniggia", "Mario Kempes"],
+    "clues": {
+      "en": ["Left-footed genius", "Scored the 'Hand of God' goal", "Won two Serie A titles with Napoli"],
+      "tr": ["Solak dahi", "'Tanrı'nın Eli' golünü attı", "Napoli ile iki Serie A şampiyonluğu kazandı"],
+      "de": ["Linksfüßiges Genie", "Erzielte das 'Hand Gottes'-Tor", "Gewann zwei Meistertitel mit Neapel"]
+    }
+  },
+  {
+    "id": "pele", "difficulty": 5, "name": "Pelé", "nat": "BRA", "era": "1956–1977",
+    "clubs": ["Santos", "New York Cosmos"],
+    "distractors": ["Garrincha", "Zico", "Tostão"],
+    "clues": {
+      "en": ["Won a World Cup at 17", "Never played in Europe", "Three World Cup titles"],
+      "tr": ["17 yaşında Dünya Kupası kazandı", "Hiç Avrupa'da oynamadı", "Üç Dünya Kupası şampiyonluğu"],
+      "de": ["Wurde mit 17 Weltmeister", "Spielte nie in Europa", "Drei WM-Titel"]
+    }
+  },
+  {
+    "id": "scholes", "difficulty": 5, "name": "Paul Scholes", "nat": "ENG", "era": "1994–2013",
+    "clubs": ["Manchester United"],
+    "distractors": ["Roy Keane", "Nicky Butt", "Phil Neville"],
+    "clues": {
+      "en": ["One-club man", "Admired by Xavi and Zidane", "Retired twice"],
+      "tr": ["Tek kulüp adamı", "Xavi ve Zidane'ın hayranlık duyduğu oyuncu", "İki kez futbolu bıraktı"],
+      "de": ["Ein-Verein-Spieler", "Von Xavi und Zidane bewundert", "Beendete seine Karriere zweimal"]
+    }
+  },
+  {
+    "id": "puskas", "difficulty": 5, "name": "Ferenc Puskás", "nat": "HUN", "era": "1943–1966",
+    "clubs": ["Budapest Honvéd", "Real Madrid"],
+    "distractors": ["Sándor Kocsis", "József Bozsik", "Nándor Hidegkuti"],
+    "clues": {
+      "en": ["Nicknamed 'The Galloping Major'", "Scored four in the 1960 European Cup final", "A FIFA goal award bears his name"],
+      "tr": ["Lakabı 'Dörtnala Binbaşı'", "1960 Avrupa Kupası finalinde dört gol attı", "FIFA'nın yılın golü ödülü onun adını taşır"],
+      "de": ["Spitzname 'Der galoppierende Major'", "Erzielte vier Tore im Europapokalfinale 1960", "Ein FIFA-Tor-Preis trägt seinen Namen"]
+    }
+  },
+  {
+    "id": "di-stefano", "difficulty": 5, "name": "Alfredo Di Stéfano", "nat": "ARG", "era": "1945–1966",
+    "clubs": ["River Plate", "Millonarios", "Real Madrid", "Espanyol"],
+    "distractors": ["Ferenc Puskás", "Francisco Gento", "Raymond Kopa"],
+    "clues": {
+      "en": ["Nicknamed 'The Blond Arrow'", "Scored in five consecutive European Cup finals", "Played international football for Argentina and Spain"],
+      "tr": ["Lakabı 'Sarışın Ok'", "Üst üste beş Avrupa Kupası finalinde gol attı", "Arjantin ve İspanya adına milli maç oynadı"],
+      "de": ["Spitzname 'Der blonde Pfeil'", "Traf in fünf Europapokalfinals in Folge", "Spielte für Argentinien und Spanien"]
+    }
+  }
+]
