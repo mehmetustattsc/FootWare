@@ -28,11 +28,11 @@ for (const p of players) {
     if (new Set(p.distractors).size !== 3) err(p, "distractors must be distinct");
     if (p.distractors.includes(p.name)) err(p, "distractor equals the answer");
   }
-  for (const lang of ["tr", "en", "de"]) {
+  for (const lang of ["tr", "en", "de", "fr"]) {
     const c = p.clues?.[lang];
     if (!Array.isArray(c) || c.length < 1) err(p, `clues.${lang} missing`);
   }
-  const n = ["tr", "en", "de"].map((l) => p.clues?.[l]?.length ?? 0);
+  const n = ["tr", "en", "de", "fr"].map((l) => p.clues?.[l]?.length ?? 0);
   if (new Set(n).size > 1) err(p, `clue counts differ between languages (${n.join("/")})`);
 }
 
@@ -40,8 +40,18 @@ for (let d = 1; d <= 5; d++) {
   if ((counts[d] ?? 0) < 4) errors.push(`difficulty ${d}: only ${counts[d] ?? 0} players (need >= 4)`);
 }
 
+const transfers = JSON.parse(readFileSync(new URL("../src/data/transfers.json", import.meta.url), "utf8"));
+const tids = new Set();
+for (const t of transfers) {
+  if (tids.has(t.id)) errors.push(`transfer ${t.id}: duplicate id`);
+  tids.add(t.id);
+  if (!(t.fee > 0) || !t.player || !t.from || !t.to || !(t.year >= 1990)) errors.push(`transfer ${t.id}: incomplete`);
+}
+if (transfers.length < 14) errors.push("need at least 14 transfers");
+
 if (errors.length) {
   console.error(`✗ ${errors.length} problem(s):\n` + errors.map((e) => "  - " + e).join("\n"));
   process.exit(1);
 }
+console.log(`✓ ${transfers.length} transfers OK`);
 console.log(`✓ ${players.length} players OK  (per difficulty: ${JSON.stringify(counts)})`);

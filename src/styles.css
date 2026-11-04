@@ -159,3 +159,58 @@ button:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
 }
+
+/* ───── menu, levels, modes ───── */
+.back { background: var(--navy-2); color: #fff; border: 0; border-radius: 10px; padding: 9px 14px; font-weight: 700; font-size: 14px; min-height: 40px; }
+.hero.small { padding: 8px 8px 0; }
+.hero.small .hero-ball { font-size: 40px; }
+.hero.small h1 { font-size: 32px; margin: 2px 0; }
+.hero.small .hero-sub { margin: 0; }
+.seg { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 8px; }
+.seg-btn { background: #fff; border: 2px solid var(--line); border-radius: 12px; padding: 12px 6px; font-weight: 800; color: var(--text); min-height: 48px; }
+.seg-btn.active { border-color: var(--c); background: var(--c); color: #fff; }
+.seg-hint { margin: 8px 2px 0; font-size: 13px; color: var(--muted); }
+.modes { display: grid; gap: 10px; margin-top: 8px; padding-bottom: 20px; }
+.mode { display: flex; align-items: center; gap: 12px; text-align: left; background: var(--card); border: 1.5px solid var(--line); border-radius: var(--radius); padding: 14px; min-height: 76px; color: var(--text); width: 100%; }
+.mode:hover { border-color: var(--navy); }
+.mode-ic { font-size: 28px; width: 44px; height: 44px; display: grid; place-items: center; background: var(--bg); border-radius: 12px; flex: none; }
+.mode-body { flex: 1; display: flex; flex-direction: column; gap: 2px; }
+.mode-name { font-weight: 800; font-size: 17px; display: flex; align-items: center; gap: 8px; }
+.mode-desc { font-size: 13px; color: var(--muted); }
+.mode-best { font-size: 12px; color: #7a5600; font-weight: 700; }
+.mode-go { font-size: 26px; color: var(--muted); }
+.new-tag { background: var(--gold); color: #3b2a00; font-size: 10px; letter-spacing: 1px; padding: 2px 6px; border-radius: 6px; }
+
+/* ───── mode cards ───── */
+.pchip { display: flex; align-items: baseline; gap: 10px; padding: 10px 12px; background: var(--bg); border-radius: 10px; }
+.pchip-nat { font-size: 11px; font-weight: 800; color: var(--muted); letter-spacing: 1px; min-width: 32px; }
+.pchip-name { font-weight: 800; flex: 1; }
+.pchip-era { font-size: 12px; color: var(--muted); }
+.duo { display: grid; gap: 6px; margin: 10px 0 4px; }
+.duo-x { text-align: center; font-weight: 900; color: var(--muted); font-size: 18px; line-height: 1; }
+.stack { display: grid; gap: 8px; margin-top: 10px; }
+.qtext { font-weight: 700; margin: 14px 0 0; }
+.note { font-size: 12px; color: var(--muted); margin: -4px 4px 0; }
+.note.warn { color: #8f1515; font-weight: 700; font-size: 14px; margin: 0 4px; }
+.steps { list-style: none; margin: 0; padding: 6px 14px; }
+.step { padding: 10px 0; border-bottom: 1px solid var(--line); display: grid; gap: 2px; }
+.step:last-child { border-bottom: 0; }
+.step.is-new { animation: slide .35s ease-out; }
+.step-l { font-size: 11px; letter-spacing: 1.2px; text-transform: uppercase; color: var(--muted); font-weight: 800; }
+.step-t { font-weight: 700; }
+.step-pts { padding: 0 14px 12px; font-size: 13px; color: #7a5600; font-weight: 800; text-align: right; }
+.joker-row { padding: 0; }
+.btn:disabled { opacity: .55; cursor: default; }
+.option.removed { opacity: .3; text-decoration: line-through; }
+.option .club-logo { width: 32px; height: 32px; font-size: 11px; }
+.tcard { background: var(--bg); border-radius: 12px; padding: 12px 14px; margin-top: 10px; }
+.tcard-name { font-weight: 800; font-size: 18px; }
+.tcard-route { font-size: 13px; color: var(--muted); margin: 2px 0 6px; }
+.tcard-fee { font-size: 28px; font-weight: 900; color: var(--navy); font-variant-numeric: tabular-nums; }
+.tcard-fee.unknown { color: var(--muted); letter-spacing: 1px; }
+.vs { text-align: center; font-weight: 900; color: var(--muted); margin: 8px 0 0; font-size: 12px; letter-spacing: 2px; }
+.fee-opt { justify-content: center; font-size: 16px; }
+.fee-opt .option-label { flex: none; }
+.two .option { margin: 0; }
+.btn.wide { max-width: none; width: 100%; }
+.tier-modeline { font-size: 12px; letter-spacing: 1px; color: #c4d0ea; margin-bottom: 8px; }

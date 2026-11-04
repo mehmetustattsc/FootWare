@@ -1,7 +1,18 @@
 # FootWare ⚽
 
-Kariyer yolundan futbolcuyu bul — 7 soru, artan zorluk, TR / EN / DE.
-Career-path football quiz: 7 rounds, rising difficulty, multiple choice with one click.
+Futbol oyunları: 5 mod, Kolay / Orta / Zor, TR / EN / DE / FR. Her oyun 7 soru, tek tıkla cevap.
+Football quiz games: 5 modes, Easy / Medium / Hard, 7 rounds each, one-click answers.
+
+| Mod | Nasıl oynanır |
+|---|---|
+| Transfer Yolu | Kulüpleri tek tek aç, futbolcuyu bul |
+| Kim Bu? (yeni) | İpuçları adım adım gelir; erken bilene daha çok puan, yanlış şık elenir |
+| Ortak Kulüp (yeni) | İki futbolcunun ikisinin de oynadığı kulüp |
+| Gizemli Kulüp (yeni) | 2–4 efsane gösterilir, hepsinin oynadığı kulüp hangisi? |
+| Transfer Bedeli (yeni) | Gizli transfer üstteki bedelden pahalı mı, ucuz mu? |
+
+Seviyeler: Kolay (tanıdık oyuncular, 50:50 jokeri, 3 yanlış hakkı, puan ×0,7) · Orta (×1) · Zor (uzman oyuncular, joker/ipucu yok, 1 yanlış hakkı, ×1,3).
+Derece isimleri maksimum puana oranla verilir, yani her seviyede aynı merdiven.
 
 ## Geliştirme / Development
 
@@ -27,7 +38,7 @@ Elementor'da **HTML** widget'ı ekle:
         style="width:100%;max-width:640px;height:900px;border:0;display:block;margin:0 auto"></iframe>
 ```
 
-`?lang=tr|en|de` açılış dilini belirler (yoksa kayıtlı seçim → tarayıcı dili → EN).
+`?lang=tr|en|de|fr` açılış dilini, `?level=easy|medium|hard` açılış seviyesini belirler (yoksa kayıtlı seçim → tarayıcı dili → EN).
 
 ## Oyuncu ekleme / Adding players
 
@@ -41,7 +52,9 @@ Tüm içerik `src/data/players.json` içindedir; kod değiştirmek gerekmez.
 ```
 
 - `difficulty`: 1 (kolay) … 5 (efsane). Doğru cevap her zaman `name`, 3 yanlış şık `distractors`.
-- Her dilde aynı sayıda ipucu olmalı.
+- Her dilde (tr/en/de/fr) aynı sayıda ipucu olmalı.
+- Transferler `src/data/transfers.json` içinde (bedel milyon €, ek ödemeler hariç, kaynak: Wikipedia transfer rekorları listesi). Yeni satır eklemek yeterli.
+- Ortak Kulüp ve Gizemli Kulüp soruları `players.json` içindeki kulüp listelerinden otomatik üretilir; yeni oyuncu eklemek bu modları da zenginleştirir.
 - Kaydetmeden önce: `npm run validate`.
 - Yeni kulüplere otomatik renk atanır; özel renk için `src/clubs.js`.
 
